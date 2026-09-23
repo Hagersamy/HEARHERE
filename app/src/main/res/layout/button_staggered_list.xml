@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    tools:ignore="Orientation">
+
+    <ImageView
+        android:id="@+id/idIVImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/idButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVImage"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_sttaggered"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="Sample Text"
+        android:textAllCaps="false"
+        android:textColor="@color/button_staggered"
+        android:textSize="12dp"
+        tools:ignore="HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck" />
+</LinearLayout>
